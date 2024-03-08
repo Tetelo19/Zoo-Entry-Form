@@ -1,7 +1,7 @@
 body {
     font-family:Georgia, serif;;
     text-align: center;
-    background-image: url('../Pictures/big-5-sm.GIF'); 
+    background-image: url('big-5-sm.GIF'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center

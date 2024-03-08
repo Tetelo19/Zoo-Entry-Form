@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Entry Form</title>
+    <link rel="stylesheet" href="my style.css">
+</head>
+<body>
+    <h1>FOSTER Zoo Entry Form</h1>
+    <div class="container">
+        
+        <form id="entryForm">
+            <label for="age">Enter your age:</label>
+            <input type="number" id="age" name="age" required min="0">
+            
+            <!-- Quantity field is always visible -->
+            <div id="tetelo"  style="display:none">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required min="1" value="1">
+            </div>
+            
+            <input type="submit" value="Calculate Ticket Price">
+        </form>
+        <div id="ticketPrice"></div>
+        <div id="totalPrice"></div>
+    </div>
+
+    <script src="document.getElementById('entryForm').js"></script>
+   <script src="window.js"></script>
+</body>
+</html>
